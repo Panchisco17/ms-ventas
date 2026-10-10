@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class ventaProducto {
+public class VentaProducto {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) // el identity crea la tabla autonumerica
